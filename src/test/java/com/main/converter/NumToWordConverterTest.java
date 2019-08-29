@@ -20,7 +20,7 @@ public class NumToWordConverterTest {
 
 	@Test
 	public void testConvertInput() throws Exception {
-		assertEquals("One", converter.convertInput(1));
+		assertEquals("Zero", converter.convertInput(0));
 	}
 
 	@Test
@@ -30,7 +30,7 @@ public class NumToWordConverterTest {
 	
 	@Test
 	public void testConvertInput3() throws Exception {
-		assertEquals("Twenty Two", converter.convertInput(22));
+		assertEquals("Fifty Six Million Nine Hundred and Forty Five Thousand Seven Hundred and Eighty One", converter.convertInput(56945781));
 	}
 	@Test
 	public void testConvertInput4() throws Exception {

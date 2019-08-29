@@ -3,4 +3,4 @@
 2) Navigate to NumToWordConverter
 3) Run mvn clean install
 4) After successful build, Navigate to Target folder.
-5) Run the command "java -jar 
+5) Run the command "java -jar Application-0.0.1-SNAPSHOT.jar"
